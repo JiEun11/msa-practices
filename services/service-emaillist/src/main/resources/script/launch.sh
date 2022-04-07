@@ -2,7 +2,7 @@
 
 APP_NAME=service-emaillist
 SCRIPT_DIR=$(cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
-PID=$(ps -ef | grep java | grep $SERVICE_NAME.jar | awk '{print $2}')
+PID=$(ps -ef | grep java | grep $APP_NAME.jar | awk '{print $2}')
 
 if  [ ! -z "$PID" ] 
 then
