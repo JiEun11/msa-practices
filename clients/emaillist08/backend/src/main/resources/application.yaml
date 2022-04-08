@@ -16,13 +16,14 @@ spring:
      suffix : .html
      cache : false
 
+# Gateway 사용 
 # Eureka
-eureka:
-   client:
-      fetchRegistry: true
-      registerWithEureka: false
-      serviceUrl:
-         defaultZone: http://localhost:8761/eureka
+#eureka:
+#   client:
+#      fetchRegistry: true
+#      registerWithEureka: false
+#      serviceUrl:
+#         defaultZone: http://localhost:8761/eureka
 
 ---
 #

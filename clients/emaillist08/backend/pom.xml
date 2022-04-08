@@ -39,12 +39,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- Spring Cloud Discovery Client -->
+		<!-- GateWay 사용  -->
+		<!-- Spring Cloud Discovery Client 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
+		-->
+		
 		<!-- Thymeleaf Starter -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
